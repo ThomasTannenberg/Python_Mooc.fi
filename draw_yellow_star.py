@@ -1,6 +1,6 @@
 from turtle import *
 fillcolor("yellow")
-for a in range(12):
+for a in range(1):
     begin_fill()
     forward(100)
     right(108)
