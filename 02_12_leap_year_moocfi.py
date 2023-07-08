@@ -1,0 +1,15 @@
+# Write your solution here
+
+def check_year(year):
+
+    if year % 4 == 0  and (year % 100 != 0  or year % 400 == 0):
+        print("That year is a leap year.")
+    else:
+        print("That year is not a leap year.")
+
+
+def main():
+    year = int(input("Please type in a year: "))
+    check_year(year)
+
+main()
